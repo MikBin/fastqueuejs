@@ -99,9 +99,9 @@ const FastQueueJs = (() => {
                 return this._queue[this._queue.length - 1];
             } else {
                 if (n < this.getLength()) {
-                    return this._queue.slice(this._queue.length - n);
+                    return this._queue.slice(this._queue.length - n).reverse();
                 }
-                return this._queue.slice(this._first);
+                return this._queue.slice(this._first).reverse();
             }
         };
         getLength() {
