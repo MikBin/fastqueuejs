@@ -1,6 +1,6 @@
 {
   "name": "fastqueuejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple minimal fast javascript queue",
   "main": "dist/fastqueuejs.js",
   "scripts": {
@@ -47,7 +47,5 @@
     "url": "https://github.com/MikBin/fastqueuejs/issues"
   },
   "homepage": "https://github.com/MikBin/fastqueuejs#readme",
-  "dependencies": {
-   
-  }
+  "dependencies": {}
 }
