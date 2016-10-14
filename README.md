@@ -31,7 +31,7 @@ queue.getLength(); //7
 
 queue.dequeue();\\'A'
 
-queue.dequeueMany(2);//['B','R','A']
+queue.dequeueMany(3);//['B','R','A']
 queue.getLength(); //3
 
 queue.isEmpty();//false
