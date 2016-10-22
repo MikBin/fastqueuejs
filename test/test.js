@@ -85,7 +85,7 @@ describe('FastQueueJs', function() {
 			out = queue.last(3);
 			expect(queue._queue.length).to.equal(8);
 			expect(queue.getLength()).to.equal(4);
-			expect(out).to.deep.equal([3, 4, 5]);
+			expect(out).to.deep.equal([5, 4, 3]);
 
 		});
 	});
